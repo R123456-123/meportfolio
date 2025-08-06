@@ -42,14 +42,10 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className='flex-1'>
           <p className='mb-10 max-w-2xl font-Ovo'>
-            {/* As a dedicated and passionate web developer with a strong proficiency in
-            the MERN stack—MongoDB, Express.js, React, and Node.js. With a solid foundation
+            As a dedicated and passionate web developer with a strong proficiency in
+            the MERN stack — MongoDB, Express.js, React, and Node.js. With a solid foundation
             in building dynamic and responsive web applications,I thrive on creating
-            innovative solutions that provide seamless user experiences.</p>   */}
-
-            As a passionate and dedicated MERN Stack Web Developer, I thrive on crafting innovative and efficient web applications.
-            My expertise lies in the seamless integration of MongoDB, Express.js, React.js, and Node.js to deliver dynamic, user-friendly solutions.
-            </p>
+            innovative solutions that provide seamless user experiences.</p> 
 
           <motion.ul
             initial={{ opacity: 0 }}

@@ -79,35 +79,35 @@ export const assets = {
 export const workData = [
     {
         title: 'Frontend project',
-        description: 'Web Design',
+        description: 'Web development',
         bgImage: '/work-3.png',
     },
     {
         title: 'Full Stack project',
-        description: 'Web design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Backend project',
-        description: 'Web Design',
+        description: 'Web development',
         bgImage: '/work-2.png',
     },
     {
-        title: 'ML project',
-        description: 'Web Design',
-        bgImage: '/work-4.png',
+        title: 'Backend project',
+        description: 'Web development',
+        bgImage: '/backend.jpg',
+    },
+    {
+        title: 'AI/ML project',
+        description: 'Web with AI/ML',
+        bgImage: '/aiml.jpg',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.web_icon, title: 'Website development', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.ui_icon, title: 'MERN development', description: 'The MERN stack is a popular web development...', link: '' },
-    { icon: assets.graphics_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    { icon: assets.graphics_icon, title: 'Backend Development', description: 'Backend web development focuses on building...', link: '' },
     { icon: assets.mobile_icon, title: 'ML development', description: 'Machine Learning (ML) development involves creating...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, Java' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, Java, SQL' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
